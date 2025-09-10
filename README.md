@@ -23,12 +23,17 @@ Test predictions on candidate profiles
 ├── decision_tree.py       # Main Python script
 
 
+
+
 📊 Dataset
 
 The dataset (hires.csv) contains job candidate information with the following columns:
 
 Years Experience	Employed?	Previous Employers	Level of Education	Top-tier school	Interned	Hired
 10	Y	4	BS	N	N	Y
+
+<img width="859" height="89" alt="Screenshot 2025-09-10 at 11 41 35 am" src="https://github.com/user-attachments/assets/87ed3997-716b-4873-89a3-38d5066d811e" />
+
 
 Target column: Hired (1 = Yes, 0 = No)
 
@@ -63,3 +68,4 @@ Random Forest Classifier
 Ensemble of decision trees
 
 More robust and accurate
+
